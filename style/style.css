@@ -1,3 +1,8 @@
+* {
+	margin: 1;
+	padding: 0;
+}
+
 h1 {
    text-align:center;
 }
@@ -6,14 +11,40 @@ h2 {
 	font-size:35px;
 }
 body {
-	font-family:sans-serif;
+	font-family:Ranchers;
 	font-style:italic;
+	margin-left:15px;
+	font-size:24px
+	height: 100%;
 }
 img {
 	border-radius:20px;
 }
 p{
 	margin-left:15px;
-	text-shadow: red 1px 1px 2px;
-	font-size:24px
+}
+a {
+	text-decoration:none;
+}
+button {
+  font-size: 18px;
+  padding: 6px 10px;
+  border: 5px solid #0065F;
+  border-radius: 3px;
+  margin-top: 5px;
+}
+header {
+	width: 1275px;
+    background: #white; 
+    padding: 20px; 
+    border: 2px solid black;
+    border-radius: 80px;
+}
+footer {
+	flex: 0 0 auto;
+	width: 1275px;
+    background: #white; 
+    padding: 20px; 
+    border: 2px solid black;
+    border-radius: 80px;
 }
